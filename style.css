@@ -237,8 +237,8 @@ header {
   margin-top: 100px;
   text-align: center;
 }
-.Imgs2__2{
-    display: none;
+.Imgs2__2 {
+  display: none;
 }
 @media screen and (min-width: 768px) and (max-width: 979px) {
   .container {
@@ -247,9 +247,9 @@ header {
     margin: 0 auto;
     padding: 25px;
   }
-.Imgs2 {
+  .Imgs2 {
     display: none;
-}
+  }
   .headerH1 {
     /* margin-left: -100px; */
     /* margin-top: 100px; */
@@ -284,8 +284,37 @@ header {
     width: 214px;
     height: 320px;
   }
-  .Imgs2__2{
+  .Imgs2__2 {
     display: block;
     margin-left: auto;
-}
+  }
+  .txts1 {
+    display: flex;
+    flex-direction: row;
+    /* text-align: center; */
+    margin-top: 70px;
+    gap: 30px;
+  }
+  .txts1H1 {
+    width: 25px;
+    margin-left: -10px;
+  }
+  .txtsP {
+    width: 400px;
+  }
+  .multies {
+    display: grid; /* Use grid layout */
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    gap: 20px; /* Optional: add space between items */
+  }
+  /* .multiImg {
+    margin-right: auto;
+  }
+  .multiH1 {
+    margin-right: auto;
+    width: 50px;
+  } */
+  /* .multiP{
+    width: 550px;
+  } */
 }
