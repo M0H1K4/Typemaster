@@ -237,9 +237,10 @@ header {
   margin-top: 100px;
   text-align: center;
 }
-.Imgs2__2 {
+.Imgs2__2, .Imgs__3, .keyboard2 {
   display: none;
 }
+
 @media screen and (min-width: 768px) and (max-width: 979px) {
   .container {
     width: 100%;
@@ -317,4 +318,54 @@ header {
   /* .multiP{
     width: 550px;
   } */
+}
+@media screen and (min-width: 1024px) {
+  .container {
+    width: 80%;
+    max-width: 1500px;
+  }
+  .keyBoard {
+    width: 540px;
+    height: 480px;
+    /* overflow: hidden; */
+    /* display: block; */
+    margin-top: -310px;
+    margin-left: 900px;
+  }
+  .container2 {
+    margin-top: 150px;
+  }
+  .container2Button1 {
+    margin-right: 1150px;
+  }
+  .Imgs1 {
+    display: none;
+  }
+  .overlay {
+    display: none;
+  }
+  .Imgs2__2,
+  .Imgs2 {
+    display: none;
+  }
+  /* .Imgs__3{
+    margin-left: auto;
+  } */
+  .txts1 {
+    overflow: hidden;
+    width: 255px;
+    height: 265px;
+ 
+    margin-top: -300px;
+    margin-left: 1000px;
+  }
+  .multies{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    gap: 20px;
+  }
+  .Imgs__3, .keyboard2{
+    display: block;
+  }
 }
