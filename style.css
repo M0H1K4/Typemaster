@@ -8,7 +8,7 @@
 
 .container {
   width: 100%;
-  max-width: 375px;
+  /* max-width: 375px; */
   margin: 0 auto;
   padding: 15px;
 }
@@ -37,6 +37,7 @@ header {
   display: flex;
   text-align: center;
   border: none;
+  margin-left: auto;
 }
 .container2H1 {
   color: #162542;
@@ -236,4 +237,39 @@ header {
 .footerh1{
     margin-top: 100px;
     text-align: center;
+}
+@media screen and (min-width: 768px){
+    .container {
+        width: 100%;
+        max-width: 768px;
+        margin: 0 auto;
+        padding: 15px;
+      }
+      header {
+        display: flex;
+        justify-content: space-between;
+      }
+      .headerH1 {
+        color: #162542;
+        /* font-family: Barlow; */
+        font-size: 16px;
+        /* font-style: normal; */
+        font-weight: 700;
+        line-height: 26px;
+        text-transform: uppercase;
+        width: 150px;
+        height: 48px;
+        flex-shrink: 0;
+        border-radius: 8px;
+        background: #e8eff2;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .headerButton {
+        display: flex;
+        text-align: center;
+        border: none;
+
+      }
 }
