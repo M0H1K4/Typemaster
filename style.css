@@ -240,6 +240,10 @@ header {
 .Imgs2__2, .Imgs__3, .keyboard2 {
   display: none;
 }
+.multies{
+  display: flex;
+  flex-wrap: wrap;
+}
 
 @media screen and (min-width: 768px) and (max-width: 979px) {
   .container {
